@@ -3,17 +3,3 @@ body {
   background-color: white;
 }
 
-/* In global CSS or component-specific CSS */
-.card-style {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-style:hover {
-  transform: translateY(-8px) rotateX(1deg);
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
-}
-

@@ -10,16 +10,31 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="logo">Pooja M.</div>
+
+        {/* Hamburger Icon */}
         <div className="hamburger" onClick={toggleMenu}>
-          &#9776;
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+
+        {/* Navigation Links */}
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1KB5XnvCwzK4Ns9Z6eMZf8sE2nCd1X3lh/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Resume</a></li>
+          <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
+          <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
+          <li><a href="#skills" onClick={() => setIsOpen(false)}>Skills</a></li>
+          <li><a href="#achievements" onClick={() => setIsOpen(false)}>Achievements</a></li>
+          <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1KB5XnvCwzK4Ns9Z6eMZf8sE2nCd1X3lh/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
