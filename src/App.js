@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div classname = "container">
       <Navbar />
       <Hero />
       <About />
@@ -21,7 +21,7 @@ function App() {
       <Achievements />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
