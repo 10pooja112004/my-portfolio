@@ -1,0 +1,42 @@
+.hero {
+  font-family: 'Times New Roman', serif;
+  background-color: rgb(255, 255, 255);
+  color: #844421;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero h1 span {
+  color: #844421;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #844421;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.hero-resume-btn:hover {
+  background-color: #b75e2e;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+

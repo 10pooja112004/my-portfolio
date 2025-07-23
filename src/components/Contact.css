@@ -1,0 +1,29 @@
+.contact {
+  font-family: 'Times New Roman', serif;
+  background-color: rgb(255, 255, 255);
+  color: #844421;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contact-info a {
+  color: #844421;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
