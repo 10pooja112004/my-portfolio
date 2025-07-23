@@ -14,7 +14,6 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Spring Boot, Hibernate, React.js, Stripe API, Cloudinary</p>
           <div className="project-links">
             <a href="https://github.com/10pooja112004/virtual-art-gallery" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="https://virtualartgallery.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
 
@@ -25,7 +24,6 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> React.js, REST API, CSS</p>
           <div className="project-links">
             <a href="https://github.com/10pooja112004/currency-tracker" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="https://currencytracker.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </div>
 
