@@ -8,7 +8,12 @@ const Contact = () => {
       <p>If you'd like to get in touch, feel free to drop me a message!</p>
 
       <div className="contact-info card-style">
-        <p><strong>Email: poojamurthy413@gmail.com</strong></p>
+        <p>
+          <strong>Email:</strong>{' '}
+            <a href="mailto:poojamurthy413@gmail.com" target="_blank" rel="noopener noreferrer">
+               poojamurthy413@gmail.com
+            </a>
+        </p>   
         <p><strong>Phone No: 91+ 7353849828</strong></p>
         <p>
           <strong>LinkedIn:</strong>{' '}

@@ -20,10 +20,20 @@ const Projects = () => {
         {/* Project 2 */}
         <div className="project-card">
           <h3>Currency Tracker App</h3>
-          <p>A React app to track and convert live currency rates using Fixer API.</p>
-          <p><strong>Tech Stack:</strong> React.js, REST API, CSS</p>
+          <p>A responsive React app that tracks and converts live currency exchange rates in real-time using the Fixer API.</p>
+          <p><strong>Tech Stack:</strong> React.js, REST API, HTML, CSS</p>
           <div className="project-links">
             <a href="https://github.com/10pooja112004/currency-tracker" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </div>
+
+        {/* Project 3 */}
+        <div className="project-card">
+          <h3>My Portfolio</h3>
+          <p>A personal portfolio website built with React.js to showcase skills, projects, and contact information.</p>
+          <p><strong>Tech Stack:</strong> React.js and Front-end technologies</p>
+          <div className="project-links">
+            <a href="https://github.com/10pooja112004/my-portfolio" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
 
